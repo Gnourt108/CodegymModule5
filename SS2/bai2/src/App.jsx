@@ -1,7 +1,6 @@
 import getAll from "../../bai2/src/service/data"
 function App() {
   const students = getAll()
-
   return (
     <>
       <div className="container mt-5">
