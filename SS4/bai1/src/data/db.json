@@ -1,0 +1,52 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "John",
+      "phone": "1234567890",
+      "gender": true,
+      "email": "john@example.com",
+      "class": {
+        "id": 1,
+        "name": "C03"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Bob",
+      "phone": "1234567891",
+      "gender": true,
+      "email": "bob@example.com",
+      "class": {
+        "id": 2,
+        "name": "C07"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Lisa",
+      "phone": "1234567892",
+      "gender": false,
+      "email": "lisa@example.com",
+      "class": {
+        "id": 3,
+        "name": "C09"
+      }
+    }
+  ],
+  "classes": [
+    {
+      "id": "1",
+      "name": "C03"
+    },
+    {
+      "id": "2",
+      "name": "C07"
+    },
+    {
+      "id": "3",
+      "name": "C09"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
